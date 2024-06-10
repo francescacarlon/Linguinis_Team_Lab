@@ -75,7 +75,7 @@ class Preprocessing:
         df['text'] = df['text'].str.replace('!', ' exclamationmark ', regex=False)
 
         # replace "\...+" with "ellipsis"
-        df['text'] = df['text'].apply(lambda x: re.sub(r'\.\.\.+', ' ellipsis ', str(x)))
+        df['text'] = df['text'].apply(lambda x: re.sub(r'\.\.\.+', ' ellipsismark ', str(x)))
 
         # replace other punctuation with space
         other_punctuation = r'["#$%&\'()*+,\-./:;<=>@\[\\\]^_`{|}~]'
