@@ -4,6 +4,7 @@
 ## Project Description
 The project focuses on Emotion Classification, and it aims at classifying texts into classes (i.e. Emotions). 
 It is based on the ISEAR dataset.
+The goal is to make inference and explore 1) what the best way to evaluate Emotion Classification is and 2) which features can help to get a better classification. 
 
 ## Download datasets
 
