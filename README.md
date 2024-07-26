@@ -11,7 +11,7 @@ It is based on the ISEAR dataset.
 
 1. **Download** 
 
-   from IMS server:
+   if you want to download it from IMS server:
 
     CMD: 
     ```
@@ -23,6 +23,13 @@ It is based on the ISEAR dataset.
     
     ```
 
+   For convenience, you can find isear-test.csv, isear-train.csv, isear-val.csv included in the project folder. 
+    
+### NRC Word-Emotion Association Lexicon (aka EmoLex)
+
+Downloaded from https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+
+Please use the txt file "aNRC-Emotion-Lexicon-Wordlevel-v0.92" included in the project folder. 
 
 ## Setup
 
