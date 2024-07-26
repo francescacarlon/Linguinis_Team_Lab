@@ -5,17 +5,27 @@
 The project focuses on Emotion Classification, and it aims at classifying texts into classes (i.e. Emotions). 
 It is based on the ISEAR dataset.
 
-### Main
-
-### Data Processing
-
-### Embeddings
-
-### Models
-
 ## Download datasets
 
+### ISEAR (self-reported emotional events) Dataset:
+
+1. **Download** 
+
+   from IMS server:
+
+    CMD: 
+    ```
+    cd /mount/studenten/team-lab-cl/emotions/isear
+    
+    ```
+
+2. scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-test.csv /local/directory/path/
+
+
 ## Setup
+
+### Python3
+ - version: 3.10.11 or newer
 
 ### Virtual Env
 
