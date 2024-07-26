@@ -84,12 +84,18 @@ if __name__ == "__main__":
     model_name = config_logistic
 ```
 
+Note: includes Evaluation. Evaluates model performance and prints relevant metrics.
+
 ### DataLoader_processed.py
 
-
+Loads, cleans, and preprocesses data, including tokenization, lemmatization, and adding sentiment features.
 
 ### embeddings_template.py
 
+Converts text data into numerical vectors using the following methods: Tf-Idf, One-hot, CBOW, and Skipgram.
+
 ### model_template.py
 
+Selects and trains a model with the following models: SVM, Logistic Regression, Naive Bayes, CNN.
 
+Note: CNN was included but in the end we decided not to make inference with it. 
