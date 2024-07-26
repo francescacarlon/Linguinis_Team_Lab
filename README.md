@@ -73,7 +73,20 @@ Run main.py file
 
 ### main.py
 
+It executes the whole code and performs the following tasks (see following Python files). 
+It is possible to change the combination of embedding and model templates to perform in lines 217-219
+
+Example:
+
+```
+if __name__ == "__main__":
+    embedding_method = config_word2vec_CBOW 
+    model_name = config_logistic
+```
+
 ### DataLoader_processed.py
+
+
 
 ### embeddings_template.py
 
