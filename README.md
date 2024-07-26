@@ -18,6 +18,8 @@ It is based on the ISEAR dataset.
     cd /mount/studenten/team-lab-cl/emotions/isear
 
     scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-test.csv /local/directory/path/
+    scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-train.csv /local/directory/path/
+    scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-val.csv /local/directory/path/
     
     ```
 
