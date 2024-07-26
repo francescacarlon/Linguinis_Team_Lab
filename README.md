@@ -16,10 +16,10 @@ It is based on the ISEAR dataset.
     CMD: 
     ```
     cd /mount/studenten/team-lab-cl/emotions/isear
+
+    scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-test.csv /local/directory/path/
     
     ```
-
-2. scp user@phoenix:/mount/studenten/team-lab-cl/emotions/isear/isear-test.csv /local/directory/path/
 
 
 ## Setup
