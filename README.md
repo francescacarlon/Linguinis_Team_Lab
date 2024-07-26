@@ -65,5 +65,18 @@ ___
 deactivate
 ```
 
-## How To Run
+## Usage
+
+Run main.py file
+
+## Brief Files Descriptions
+
+### main.py
+
+### DataLoader_processed.py
+
+### embeddings_template.py
+
+### model_template.py
+
 
